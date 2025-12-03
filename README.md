@@ -12,8 +12,6 @@ This repository contains complete SAP QM documentation for the process of Inspec
 
 05_Test_Data.xlsx – Sample GR/PO test data
 
-06_Screenshots_List.docx – Required screenshots list
-
 🌟 Process Covered
 Material Master QM setup
 
@@ -28,4 +26,4 @@ Usage Decision (QA11)
 Stock posting after UD
 
 👤 Author
-Your name / your team
+Satyanarayana Siddineni.
