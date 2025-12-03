@@ -1,29 +1,25 @@
-Basic Inspection Lot Creation & Processing – SAP QM
-This repository contains complete SAP QM documentation for the process of Inspection Lot Creation & Processing during Goods Receipt.
+# Basic Inspection Lot Creation & Processing – SAP QM
 
-📂 Contents
-01_Project_Overview.docx – High‑level explanation
+This repository demonstrates the complete end‑to‑end process of **Inspection Lot Creation and Processing** in **SAP S/4HANA Quality Management (QM)**.  
+It is designed for learners, consultants, and professionals who want a clear understanding of how SAP handles incoming material inspection during Goods Receipt.
 
-02_Process_Flow.pdf – End‑to‑end flow diagram
+---
 
-03_Inspection_Lot_Steps.docx – Step‑by‑step execution
+## 📘 **Overview**
 
-04_Master_Data_Settings.docx – QM view & setup
+In SAP Quality Management, inspection lots are generated during various business processes such as goods receipt, production, or stock transfer.  
+This project focuses on **Inspection Type 01 – Goods Receipt Inspection**.
 
-05_Test_Data.xlsx – Sample GR/PO test data
+The repository covers:
+- Master data setup  
+- Goods Receipt execution  
+- Automatic inspection lot creation  
+- Results recording  
+- Usage decision  
+- Stock postings based on UD  
 
-🌟 Process Covered
-Material Master QM setup
+---
 
-GR against PO
-
-Automatic inspection lot creation
-
-Results Recording (QE51N)
-
-Usage Decision (QA11)
-
-Stock posting after UD
 
 👤 Author
 Satyanarayana Siddineni.
