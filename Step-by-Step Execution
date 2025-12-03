@@ -1,0 +1,49 @@
+1️⃣ Material Creation (MM01)
+
+Maintain QM View
+
+Activate inspection type 01 (GR for PO) or 04 (GR for Production)
+
+Enable: Post to inspection stock
+
+2️⃣ Create MICs (QS21)
+
+Create a Quantitative characteristic
+Example: Weight (Range: 9.5–10.5 kg)
+
+Create a Qualitative characteristic
+Example: Color (OK / NOT OK)
+
+3️⃣ Create Inspection Plan (QP01)
+
+Assign material & plant
+
+Add operation (ex: 0010 – Quality Check)
+
+Insert MICs
+
+Save the plan
+
+4️⃣ Trigger an Inspection Lot
+
+Create PO (ME21N)
+
+Perform GR (MIGO)
+
+System auto-creates inspection lot
+
+Check via QA32
+
+5️⃣ Record Results (QE51N / QA32 → Results)
+
+Enter measured values
+
+Mark characteristics as accepted/rejected
+
+Save results
+
+6️⃣ Usage Decision (QA11)
+
+Select UD code (e.g., AQL Accepted / Rejected)
+
+System posts stock to Unrestricted / Blocked Stock
