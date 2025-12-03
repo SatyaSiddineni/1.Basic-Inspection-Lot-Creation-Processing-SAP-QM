@@ -1,0 +1,43 @@
+Basic Inspection Lot Creation & Processing (SAP QM)
+Module: SAP Quality Management (QM)
+
+1. Purpose
+This document describes the complete SAP QM process for creating and processing inspection lots during Goods Receipt (GR). It is designed for SAP QM users, consultants, and learners.
+
+2. Covered Processes
+Material inspection at Goods Receipt
+
+Automatic Inspection Lot Creation
+
+Results Recording
+
+Usage Decision
+
+Stock posting based on UD
+
+3. Related Transaction Codes
+Activity	T-Code
+Material Master	MM01 / MM02
+Display Inspection Lot	QA03
+Inspection Lot Worklist	QA32
+Results Recording	QE51N
+Usage Decision	QA11
+Goods Receipt	MIGO
+Quality Info Records	QI01/QI02
+4. Prerequisites
+Material master created with QM view
+
+Inspection type “01” active
+
+Purchase Order exists
+
+GR will create the inspection lot
+
+5. Output of the Process
+Inspection Lot created
+
+Results recorded
+
+Usage Decision completed
+
+Stock posted to unrestricted / blocked / scrap
