@@ -40,6 +40,4 @@ A company procures raw materials from a vendor. Upon receiving the material, the
         How inspection lots are automatically created during GR
         How to perform results recording for quantitative & qualitative MICs
         How to take a usage decision and post stock accordingly
-        Understanding of master data dependencies (MICs, Sampling, Plans)
-        Real‑world relevance of incoming inspection processes
-
+        
