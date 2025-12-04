@@ -27,49 +27,7 @@ A company procures raw materials from a vendor. Upon receiving the material, the
 
 
 ✅ 3. Process Flow Diagram
-Code
-                ┌────────────────────────┐
-                │   Material Master Set   │
-                │   Up with QM View       │
-                └───────────┬────────────┘
-                            │
-                            ▼
-                ┌────────────────────────┐
-                │   Create Purchase Order │
-                │        (ME21N)          │
-                └───────────┬────────────┘
-                            │
-                            ▼
-                ┌────────────────────────┐
-                │   Goods Receipt (MIGO)  │
-                │  Inspection Lot Created │
-                └───────────┬────────────┘
-                            │
-                            ▼
-                ┌────────────────────────┐
-                │   Inspection Lot Review │
-                │        (QA32)           │
-                └───────────┬────────────┘
-                            │
-                            ▼
-                ┌────────────────────────┐
-                │   Results Recording     │
-                │        (QE51N)          │
-                └───────────┬────────────┘
-                            │
-                            ▼
-                ┌────────────────────────┐
-                │     Usage Decision      │
-                │        (QA11)           │
-                └───────────┬────────────┘
-                            │
-                            ▼
-                ┌────────────────────────┐
-                │ Stock Posting (Unres/   │
-                │ Blocked/Accepted Stock) │
-                └────────────────────────┘
-
-
+             
 ✅ 4. T‑Codes Used in This Project
 
 ✅ 5. Folder Structure
