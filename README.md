@@ -39,7 +39,24 @@ This project demonstrates the complete end‑to‑end process of Inspection Lot 
         How inspection lots are automatically created during GR
         How to perform results recording for quantitative & qualitative MICs
         How to take a usage decision and post stock accordingly
-        
+
+
+5. Project Structure
+
+        Basic Inspection Lot Creation & Processing/
+        │── README.md
+        │── Dataset/
+        │     ├── Dataset.xlsx
+        │
+        │── Pre-requisites/
+        │     └── Master Data Settings.pdf
+        │
+        │── Documentation/
+              ├── Project Overview.pdf
+              ├── List of transaction codes.pdf
+              └── Process Flow.pdf
+     
+
 🙌 Author
 
 Satyanarayana Siddineni 
