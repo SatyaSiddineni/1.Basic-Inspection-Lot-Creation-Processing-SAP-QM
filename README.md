@@ -45,13 +45,13 @@ This project demonstrates the complete end‑to‑end process of Inspection Lot 
 
         Basic Inspection Lot Creation & Processing/
         │── README.md
-        │── Dataset/
-        │     ├── Dataset.xlsx
+        │── Test data/
+        │     └── Sample Data.xlsx
         │
         │── Pre-requisites/
         │     └── Master Data Settings.pdf
         │
-        │── Documentation/
+        └── Documentation/
               ├── Project Overview.pdf
               ├── List of transaction codes.pdf
               └── Process Flow.pdf
