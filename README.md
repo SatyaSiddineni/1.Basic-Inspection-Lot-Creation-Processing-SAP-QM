@@ -44,18 +44,19 @@ This project demonstrates the complete end‑to‑end process of Inspection Lot 
 5. Project Structure
 
         Basic Inspection Lot Creation & Processing/
+        |   
         │── README.md
-        │── Test data/
-        │     └── Sample Data.xlsx
+        │── Documentation/
+        │     ├── Project Overview.pdf
+        │     ├── List of transaction codes.pdf
+        │     └── Process Flow.pdf
         │
         │── Pre-requisites/
         │     └── Master Data Settings.pdf
         │
-        └── Documentation/
-              ├── Project Overview.pdf
-              ├── List of transaction codes.pdf
-              └── Process Flow.pdf
-     
+        └── Test data/
+              └── Sample Data.xlsx
+       
 
 🙌 Author
 
